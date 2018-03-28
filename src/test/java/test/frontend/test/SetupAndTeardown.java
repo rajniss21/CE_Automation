@@ -76,7 +76,7 @@ public class SetupAndTeardown {
             return false;
     }
 
-    }
+
     /**
      * For printing logs and informations
      *  @param textToPrint
