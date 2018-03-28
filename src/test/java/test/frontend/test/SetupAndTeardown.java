@@ -24,7 +24,7 @@ public class SetupAndTeardown {
     @BeforeMethod
     public void setup(){
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        System.setProperty("webdriver.chrome.driver","webdriver/"+"chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","WebDrivers/"+"chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("disable-infobars");
         myWebDriver = new ChromeDriver(chromeOptions);
