@@ -11,7 +11,7 @@ public class FrontendLandingPage {
         PageFactory.initElements(param_webdriver, this);
     }
     @FindBy(xpath = ".//*[@id='app']/header/ul/li/a")
-    WebElement loggedUser;
+    WebElement nameOfTheUserLoggedIn;
 
     @FindBy(xpath = ".//*[@id='app']/aside/ul/li[1]/a/span")
     WebElement topPage;
@@ -31,8 +31,8 @@ public class FrontendLandingPage {
     @FindBy(xpath = ".//*[@id='app']/aside/ul/li[6]/a/span")
     WebElement frequentlyAskedQuestions;
 
-    public WebElement getLoggedUser() {
-        return loggedUser;
+    public WebElement getNameOfTheUserLoggedIn() {
+        return nameOfTheUserLoggedIn;
     }
 
     public WebElement getTopPage() {

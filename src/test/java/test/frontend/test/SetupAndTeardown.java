@@ -5,10 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import test.frontend.elements.FrontendLandingPage;
 import test.frontend.elements.Loginpage;
 
 public class SetupAndTeardown {
@@ -75,6 +75,11 @@ public class SetupAndTeardown {
         else
             return false;
     }
+   /* public void checkIfLoggedIn() {
+        FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
+        Assert.assertEquals(frontendLandingPageObj.getNameOfTheUserLoggedIn().getText(), "ekbanat@gmail.com");
+
+    }*/
 
 
     /**

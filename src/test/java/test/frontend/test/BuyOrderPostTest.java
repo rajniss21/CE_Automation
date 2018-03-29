@@ -14,11 +14,12 @@ public class BuyOrderPostTest extends SetupAndTeardown{
         BuySellForm buySellFormObj = new BuySellForm(myWebDriver);
 
         loginToTheModule();
-        Thread.sleep(5000);
-        checkForTheText(frontendLandingPageObj.getLoggedUser(), "ekbanat@gmail.com");
-        frontendLandingPageObj.getBuySellOrders().click();
+        Thread.sleep(15000);
+        checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
         Thread.sleep(1000);
-        checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "Buy/Sell");
+        frontendLandingPageObj.getBuySellOrders().click();
+        //Thread.sleep(1000);
+        //checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "Buy/Sell");
 
 
 
