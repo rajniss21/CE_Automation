@@ -18,8 +18,15 @@ public class BuyOrderPostTest extends SetupAndTeardown{
         checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
         Thread.sleep(1000);
         frontendLandingPageObj.getBuySellOrders().click();
-        //Thread.sleep(1000);
-        //checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "Buy/Sell");
+        Thread.sleep(1000);
+        checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "BUY/SELL");
+        Thread.sleep(1000);
+        buySellFormObj.getCostPerCHT("¥5");
+        buySellFormObj.getChattyAmount().sendKeys("10");
+        buySellFormObj.getExpiryTime().sendKeys("12");
+        Thread.sleep(1000);
+        buySellFormObj.getBuySellOrderSubmitBtn().click();
+
 
 
 

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class BuySellForm {
 
@@ -30,9 +31,11 @@ public class BuySellForm {
         return buySellOrderPageHeader;
     }
 
-    public void setCostPerCHT(WebElement costPerCHT) {
-        this.costPerCHT = costPerCHT;
+    public void getCostPerCHT(String costPerCHTInput) {
+        Select dropdown = new Select(costPerCHT);
+        dropdown.selectByVisibleText(costPerCHTInput);
     }
+
 
     public WebElement getChattyAmount() {
         return chattyAmount;
