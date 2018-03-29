@@ -3,21 +3,31 @@ package test.frontend.data;
 import org.testng.annotations.DataProvider;
 import parser.ExcelFileParser;
 
-public class DataforBuySellOrder {
+public class DataForBuySellOrder {
 
     @DataProvider(name = "BuyData")
     public static Object[][] BuyData() throws Exception {
 
         String xlFilePath = "./Excels/BuySell.xlsx";
         String sheetName = "Buy Order";
-        Object[][] mydata=testData(xlFilePath,sheetName);
-        return mydata;
+        Object[][] myData=testData(xlFilePath,sheetName);
+        return myData;
     }
+
+    @DataProvider(name = "SellData")
+    public static Object[][] sellData() throws Exception{
+        String xlFilePath = "./Excels/BuySell.xlsx";
+        String sheetName = "sell Order";
+        Object[][] myData=testData(xlFilePath,sheetName);
+        return myData;
+    }
+
 
     public static Object[][] testData(String xlFilePath, String sheetName) throws Exception {
 
         ExcelFileParser excelParserObj = new ExcelFileParser(xlFilePath);
         Object[][] excelData = null;
+
 
         /**
          * get Row count and Column count
@@ -39,4 +49,6 @@ public class DataforBuySellOrder {
         }
         return excelData;
     }
+
+
 }

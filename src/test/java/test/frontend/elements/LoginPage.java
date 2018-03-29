@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Loginpage {
+public class LoginPage {
 
-    public Loginpage(WebDriver param_driver){
+    public LoginPage(WebDriver param_driver){
         PageFactory.initElements(param_driver, this);
     }
     @FindBy(xpath = ".//*[@id='app']/div/div/div[2]/div[2]/div/h3")

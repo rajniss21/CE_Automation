@@ -8,8 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import test.frontend.elements.FrontendLandingPage;
-import test.frontend.elements.Loginpage;
+import test.frontend.elements.LoginPage;
 
 public class SetupAndTeardown {
 
@@ -43,8 +42,8 @@ public class SetupAndTeardown {
      * first check for the forms heading
      * Login to the system, suply email and password
      */
-    public void loginToTheModule(){
-        Loginpage loginpageObj = new Loginpage(myWebDriver);
+    public void LoginToTheModule(){
+        LoginPage loginpageObj = new LoginPage(myWebDriver);
         checkForTheText(loginpageObj.getHeaderOfLoginForm(), "SIGN IN");
         loginpageObj.getEmailInput().sendKeys(ADMIN_EMAIL);
         loginpageObj.getPasswordInput().sendKeys(ADMIN_PASSWORD);

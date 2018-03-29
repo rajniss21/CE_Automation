@@ -15,6 +15,9 @@ public class BuySellForm {
     @FindBy(xpath = ".//*[@id='app']/main/div/h3")
     WebElement buySellOrderPageHeader;
 
+    @FindBy(xpath = ".//*[@id='myTab']/li[2]/a")
+    WebElement sellNavigation;
+
     @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/form/div/div[1]/select")
     WebElement costPerCHT;
 
@@ -31,11 +34,18 @@ public class BuySellForm {
         return buySellOrderPageHeader;
     }
 
-    public void getCostPerCHT(String costPerCHTInput) {
-        Select dropdown = new Select(costPerCHT);
-        dropdown.selectByVisibleText(costPerCHTInput);
+    public WebElement getSellNavigation() {
+        return sellNavigation;
     }
 
+   /* public void getCostPerCHT(String costPerCHTInput) {
+        Select dropdown = new Select(costPerCHT);
+        dropdown.selectByVisibleText(costPerCHTInput);
+    }*/
+
+    public WebElement getCostPerCHT(String cost) {
+        return costPerCHT;
+    }
 
     public WebElement getChattyAmount() {
         return chattyAmount;
