@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import test.frontend.elements.FrontendLandingPage;
 import test.frontend.form.AccountFundingForm;
 
+import javax.annotation.Nullable;
+
 public class AccountFundingDepositTest extends SetupAndTeardown{
 
     @Test(dataProvider="AccountFundingDeposit",dataProviderClass=test.frontend.data.DataForAccountFunding.class)
@@ -27,7 +29,7 @@ public class AccountFundingDepositTest extends SetupAndTeardown{
         accountFundingFormObj.getGenerateTransactionBtn().click();
     }
     @Test(dataProvider = "AccountFundingWithdraw", dataProviderClass = test.frontend.data.DataForAccountFunding.class)
-    public void accountFundingWithdrawTest(String publicAddress, String amountToWithdraw) throws InterruptedException{
+    public void accountFundingWithdrawTest(String publicAddress, String amountToWithdraw) throws InterruptedException {
 
         FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
         AccountFundingForm accountFundingFormObj = new AccountFundingForm(myWebDriver);
@@ -36,6 +38,7 @@ public class AccountFundingDepositTest extends SetupAndTeardown{
         Thread.sleep(15000);
         checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
         Thread.sleep(1000);
+        Thread.sleep(1000);
         frontendLandingPageObj.getAccountFunding().click();
         accountFundingFormObj.getPublicAddress().sendKeys(publicAddress);
         Thread.sleep(2000);
@@ -43,7 +46,17 @@ public class AccountFundingDepositTest extends SetupAndTeardown{
         Thread.sleep(1000);
         accountFundingFormObj.getCurrencyTypeEth().click();
         accountFundingFormObj.getWithdrawBtn().click();
+    }
+    @Test
+    public void testThatDarkThemeToggleWorks() throws InterruptedException {
 
+        FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
+
+
+        LoginToTheModule();
+        Thread.sleep(10000);
+        frontendLandingPageObj.setDarkThemeToggleBtn();
+        Thread.sleep(2000);
 
     }
 
