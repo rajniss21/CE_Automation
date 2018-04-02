@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AccountingFundingForm {
+public class AccountFundingForm {
 
-    public AccountingFundingForm(WebDriver param_webdriver){
+    public AccountFundingForm(WebDriver param_webdriver){
         PageFactory.initElements(param_webdriver, this);
     }
 
@@ -16,6 +16,21 @@ public class AccountingFundingForm {
      */
     @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/form/div[1]/input")
     WebElement privateKey;
+
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/form/div[2]/button")
+    WebElement unlockBtn;
+
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/div[1]/div/form/div[1]/input")
+    WebElement amountToDeposit;
+
+    @FindBy(id = "cht")
+    WebElement depositCHT;
+
+    @FindBy(id = "eth")
+    WebElement depositETH;
+
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/div[1]/div/form/div[3]/button")
+    WebElement generateTransactionBtn;
 
     /**
      * FOR WITHDRAW...............
@@ -38,6 +53,26 @@ public class AccountingFundingForm {
 
     public WebElement getPrivateKey() {
         return privateKey;
+    }
+
+    public WebElement getUnlockBtn() {
+        return unlockBtn;
+    }
+
+    public WebElement getAmountToDeposit() {
+        return amountToDeposit;
+    }
+
+    public WebElement getDepositCHT() {
+        return depositCHT;
+    }
+    public WebElement getDepositETH() {
+        return depositETH;
+    }
+
+
+    public WebElement getGenerateTransactionBtn() {
+        return generateTransactionBtn;
     }
 
     public WebElement getPublicAddress() {
