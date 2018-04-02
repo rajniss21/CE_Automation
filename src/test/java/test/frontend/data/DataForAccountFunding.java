@@ -6,9 +6,17 @@ import parser.ExcelFileParser;
 public class DataForAccountFunding {
 
     @DataProvider(name = "AccountFundingDeposit")
-    public static Object[][] sellData() throws Exception{
+    public static Object[][] AccountFundingDeposit() throws Exception{
         String xlFilePath = "./Excels/BuySell.xlsx";
         String sheetName = "Account Funding Deposit";
+        Object[][] myData=testData(xlFilePath,sheetName);
+        return myData;
+    }
+
+    @DataProvider(name = "AccountFundingWithdraw")
+    public static Object[][] AccountFundingWithdraw() throws Exception{
+        String xlFilePath = "./Excels/BuySell.xlsx";
+        String sheetName = "Account Funding Withdraw";
         Object[][] myData=testData(xlFilePath,sheetName);
         return myData;
     }

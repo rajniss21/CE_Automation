@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb32382b-023c-4011-bfc4-59fdc00ae39e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Excels/BuySell.xlsx" afterPath="$PROJECT_DIR$/Excels/BuySell.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountingFundingForm.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingDepositTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,42 +49,43 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
-              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1531#1532#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1977#1978#0" expanded="true" />
-                <element signature="e#2013#2014#0" expanded="true" />
-                <element signature="e#2050#2051#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
-                <element signature="e#2125#2126#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2209#2210#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2289#2290#0" expanded="true" />
-                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1886#1887#0" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2011#2012#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2097#2098#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#2181#2182#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2307#2308#0" expanded="true" />
+                <element signature="e#2341#2342#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountFundingTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java">
+      <file leaf-file-name="AccountFundingDepositTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingDepositTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="393">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +108,21 @@
       <file leaf-file-name="DataForAccountFunding.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="612">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelFileParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parser/ExcelFileParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,9 +171,10 @@
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/BuyOrderPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountingFundingForm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingDepositTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" />
       </list>
     </option>
   </component>
@@ -328,8 +340,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AccountFundingTest.accountFundingDepositTest (1)">
-    <configuration name="AccountFundingTest.accountFundingDepositTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AccountFundingDepositTest.accountFundingWithdrawTest">
+    <configuration name="AccountFundingDepositTest.accountFundingDepositTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.frontend.test.*" />
@@ -341,7 +353,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test.frontend.test" />
-      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingTest" />
+      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingDepositTest" />
       <option name="METHOD_NAME" value="accountFundingDepositTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -361,7 +373,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="AccountFundingTest.accountFundingDepositTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountFundingDepositTest.accountFundingDepositTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.frontend.test.*" />
@@ -373,7 +385,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test.frontend.test" />
-      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingTest" />
+      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingDepositTest" />
       <option name="METHOD_NAME" value="accountFundingDepositTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -393,7 +405,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="BuySellOrderPostTest.addBuyOrderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountFundingDepositTest.accountFundingDepositTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.frontend.test.*" />
@@ -405,8 +417,72 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test.frontend.test" />
-      <option name="MAIN_CLASS_NAME" value="test.frontend.test.BuySellOrderPostTest" />
-      <option name="METHOD_NAME" value="addBuyOrderTest" />
+      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingDepositTest" />
+      <option name="METHOD_NAME" value="accountFundingDepositTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.frontend.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CE_Automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.frontend.test" />
+      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingDepositTest" />
+      <option name="METHOD_NAME" value="accountFundingWithdrawTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.frontend.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CE_Automation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="test.frontend.test" />
+      <option name="MAIN_CLASS_NAME" value="test.frontend.test.AccountFundingDepositTest" />
+      <option name="METHOD_NAME" value="accountFundingWithdrawTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -503,38 +579,6 @@
       <option name="PACKAGE_NAME" value="test.frontend.test" />
       <option name="MAIN_CLASS_NAME" value="test.frontend.test.BuySellOrderPostTest" />
       <option name="METHOD_NAME" value="addBuyOrderTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="BuySellOrderPostTest.addSellOrderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.frontend.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CE_Automation" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.frontend.test" />
-      <option name="MAIN_CLASS_NAME" value="test.frontend.test.BuySellOrderPostTest" />
-      <option name="METHOD_NAME" value="addSellOrderTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -634,19 +678,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.BuySellOrderPostTest.addBuyOrderTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.BuySellOrderPostTest.addSellOrderTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.AccountFundingTest.accountFundingDepositTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.AccountFundingTest.accountFundingDepositTest (1)" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingWithdrawTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingWithdrawTest (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.AccountFundingTest.accountFundingDepositTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.AccountFundingTest.accountFundingDepositTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.BuySellOrderPostTest.addSellOrderTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.BuySellOrderPostTest.addBuyOrderTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.BuySellOrderPostTest.addBuyOrderTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingWithdrawTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingWithdrawTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.AccountFundingDepositTest.accountFundingDepositTest" />
       </list>
     </recent_temporary>
   </component>
@@ -664,6 +709,18 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="AccountFundingDepositTest_accountFundingDepositTest_(1) - 2018.04.02 at 13h 30m 19s.xml">
+      <configuration name="AccountFundingDepositTest.accountFundingDepositTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountFundingDepositTest_accountFundingWithdrawTest - 2018.04.02 at 13h 28m 18s.xml">
+      <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountFundingDepositTest_accountFundingWithdrawTest - 2018.04.02 at 13h 37m 54s.xml">
+      <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AccountFundingDepositTest_accountFundingWithdrawTest_(1) - 2018.04.02 at 13h 35m 53s.xml">
+      <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest (1)" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="AccountFundingTest_accountFundingDepositTest - 2018.04.02 at 11h 47m 42s.xml">
       <configuration name="AccountFundingTest.accountFundingDepositTest" configurationId="TestNG" />
     </history-entry>
@@ -678,18 +735,6 @@
     </history-entry>
     <history-entry file="AccountFundingTest_accountFundingDepositTest_(1) - 2018.04.02 at 13h 00m 25s.xml">
       <configuration name="AccountFundingTest.accountFundingDepositTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BuyOrderPostTest_addBuyOrderTest - 2018.03.29 at 14h 52m 00s.xml">
-      <configuration name="BuyOrderPostTest.addBuyOrderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BuyOrderPostTest_addBuyOrderTest - 2018.03.29 at 14h 55m 20s.xml">
-      <configuration name="BuyOrderPostTest.addBuyOrderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BuyOrderPostTest_addBuyOrderTest_(3) - 2018.03.29 at 10h 48m 56s.xml">
-      <configuration name="BuyOrderPostTest.addBuyOrderTest (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BuyOrderPostTest_addSellOrderTest - 2018.03.29 at 16h 57m 11s.xml">
-      <configuration name="BuyOrderPostTest.addSellOrderTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="BuySellOrderPostTest_addSellOrderTest - 2018.03.30 at 14h 24m 31s.xml">
       <configuration name="BuySellOrderPostTest.addSellOrderTest" configurationId="TestNG" />
@@ -1004,14 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parser/ExcelFileParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/elements/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1071,10 +1108,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parser/ExcelFileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1084,40 +1129,41 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2289#2290#0" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1886#1887#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2097#2098#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingDepositTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="393">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

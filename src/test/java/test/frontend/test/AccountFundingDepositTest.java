@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import test.frontend.elements.FrontendLandingPage;
 import test.frontend.form.AccountFundingForm;
 
-public class AccountFundingTest extends SetupAndTeardown{
+public class AccountFundingDepositTest extends SetupAndTeardown{
 
     @Test(dataProvider="AccountFundingDeposit",dataProviderClass=test.frontend.data.DataForAccountFunding.class)
     public void accountFundingDepositTest(String privateKey, String amountToDeposit) throws InterruptedException{
@@ -26,5 +26,26 @@ public class AccountFundingTest extends SetupAndTeardown{
         accountFundingFormObj.getDepositETH().click();
         accountFundingFormObj.getGenerateTransactionBtn().click();
     }
+    @Test(dataProvider = "AccountFundingWithdraw", dataProviderClass = test.frontend.data.DataForAccountFunding.class)
+    public void accountFundingWithdrawTest(String publicAddress, String amountToWithdraw) throws InterruptedException{
+
+        FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
+        AccountFundingForm accountFundingFormObj = new AccountFundingForm(myWebDriver);
+
+        LoginToTheModule();
+        Thread.sleep(15000);
+        checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
+        Thread.sleep(1000);
+        frontendLandingPageObj.getAccountFunding().click();
+        accountFundingFormObj.getPublicAddress().sendKeys(publicAddress);
+        Thread.sleep(2000);
+        accountFundingFormObj.getAmountToWithdraw().sendKeys(amountToWithdraw);
+        Thread.sleep(1000);
+        accountFundingFormObj.getCurrencyTypeEth().click();
+        accountFundingFormObj.getWithdrawBtn().click();
+
+
+    }
+
 
 }

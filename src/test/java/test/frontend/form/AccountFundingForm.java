@@ -40,12 +40,12 @@ public class AccountFundingForm {
     WebElement publicAddress;
 
     @FindBy(xpath = ".//*[@id='app']/main/div/div/div[2]/form/div[2]/input")
-    WebElement amount;
+    WebElement amountToWithdraw;
 
     @FindBy(id = "cht")
     WebElement currencyTypeCht;
 
-    @FindBy(id = ".//*[@id='eth']")
+    @FindBy(id = "eth")
     WebElement currencyTypeEth;
 
     @FindBy(xpath = ".//*[@id='app']/main/div/div/div[2]/form/div[4]/button")
@@ -79,8 +79,8 @@ public class AccountFundingForm {
         return publicAddress;
     }
 
-    public WebElement getAmount() {
-        return amount;
+    public WebElement getAmountToWithdraw() {
+        return amountToWithdraw;
     }
 
     public WebElement getCurrencyTypeCht() {
