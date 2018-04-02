@@ -8,7 +8,7 @@ import test.frontend.form.BuySellForm;
 
 
 
-public class BuyOrderPostTest extends SetupAndTeardown{
+public class BuySellOrderPostTest extends SetupAndTeardown{
     @Test(dataProvider="BuyData",dataProviderClass=test.frontend.data.DataForBuySellOrder.class, priority=1)
     public void addBuyOrderTest(String Cost, String Chatty, String Expiry) throws InterruptedException {
 
