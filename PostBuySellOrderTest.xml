@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create Company">
+    <test name="Create Company and stores. ">
+        <classes>
+            <class name="test.frontend.test.BuySellOrderPostTest">
+                <methods>
+                    <include name = "Post buy sell order"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
