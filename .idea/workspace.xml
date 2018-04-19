@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb32382b-023c-4011-bfc4-59fdc00ae39e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PostBuySellOrderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Excels/BuySell.xlsx" afterPath="$PROJECT_DIR$/Excels/BuySell.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buySellOrderPostUrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java" afterPath="$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,24 +18,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PostBuySellOrderTest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PostBuySellOrderTest.xml">
+      <file leaf-file-name="SetupAndTeardown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="407">
+              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuySellOrderPostTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostBuySellOrderTest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PostBuySellOrderTest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuySellOrderPostTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="67">
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buySellOrderPostUrl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buySellOrderPostUrl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,16 +91,17 @@
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/data/DataforBuySellOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForBuySellOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/BuyOrderPostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountingFundingForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/data/DataForAccountFunding.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/form/AccountFundingForm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/AccountFundingDepositTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/frontend/elements/FrontendLandingPage.java" />
         <option value="$PROJECT_DIR$/PostBuySellOrderTest.fxml" />
         <option value="$PROJECT_DIR$/PostBuySellOrderTest.xml" />
+        <option value="$PROJECT_DIR$/buySellOrderPostUrl" />
+        <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java" />
       </list>
     </option>
   </component>
@@ -101,7 +123,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -574,9 +596,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountFundingDepositTest_accountFundingWithdrawTest - 2018.04.02 at 14h 29m 48s.xml">
-      <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AccountFundingDepositTest_accountFundingWithdrawTest - 2018.04.02 at 14h 44m 38s.xml">
       <configuration name="AccountFundingDepositTest.accountFundingWithdrawTest" configurationId="TestNG" />
     </history-entry>
@@ -604,9 +623,12 @@
     <history-entry file="E__CE_Automation_PostBuySellOrderTest_xml - 2018.04.19 at 14h 16m 29s.xml">
       <configuration name="E:/CE_Automation/PostBuySellOrderTest.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="E__CE_Automation_PostBuySellOrderTest_xml - 2018.04.19 at 16h 02m 29s.xml">
+      <configuration name="E:/CE_Automation/PostBuySellOrderTest.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -676,16 +698,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/elements/FrontendLandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/form/BuySellForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -771,7 +783,7 @@
         <state relative-caret-position="918">
           <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1073,7 +1085,7 @@
         <state relative-caret-position="782">
           <caret line="46" column="59" lean-forward="false" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,14 +1097,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,18 +1124,34 @@
     <entry file="file://$PROJECT_DIR$/PostBuySellOrderTest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/SetupAndTeardown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/frontend/test/BuySellOrderPostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="67">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buySellOrderPostUrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>

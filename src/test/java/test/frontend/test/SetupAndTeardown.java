@@ -11,6 +11,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import test.frontend.elements.LoginPage;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
 public class SetupAndTeardown {
 
     public WebDriver myWebDriver;
@@ -95,6 +99,16 @@ public class SetupAndTeardown {
      */
     public void logPrint(){
         System.out.println("\n");
+    }
+
+
+    public void readOrderValues() throws IOException {
+        Properties propertiesObject = new Properties();
+        FileReader readMyPresets= new FileReader("buySellOrderPostUrl");
+
+        propertiesObject.load(readMyPresets);
+        readMyPresets.close();
+
     }
 
 

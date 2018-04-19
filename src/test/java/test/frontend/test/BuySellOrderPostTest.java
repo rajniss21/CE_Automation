@@ -5,12 +5,12 @@ package test.frontend.test;
 import org.testng.annotations.Test;
 import test.frontend.elements.FrontendLandingPage;
 import test.frontend.form.BuySellForm;
-
+import java.io.IOException;
 
 
 public class BuySellOrderPostTest extends SetupAndTeardown{
     @Test(dataProvider="BuyData",dataProviderClass=test.frontend.data.DataForBuySellOrder.class, priority=1)
-    public void addBuyOrderTest(String Cost, String Chatty, String Expiry) throws InterruptedException {
+    public void addBuyOrderTest(String Cost, String Chatty, String Expiry) throws InterruptedException, IOException {
 
         FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
         BuySellForm buySellFormObj = new BuySellForm(myWebDriver);
@@ -28,6 +28,25 @@ public class BuySellOrderPostTest extends SetupAndTeardown{
         buySellFormObj.getExpiryTime().sendKeys(Expiry);
         Thread.sleep(1000);
         buySellFormObj.getBuySellOrderSubmitBtn().click();
+
+        Thread.sleep(4000);
+        readOrderValues();
+        Thread.sleep(15000);
+        checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
+        Thread.sleep(1000);
+        frontendLandingPageObj.getBuySellOrders().click();
+        Thread.sleep(1000);
+        checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "BUY/SELL");
+        Thread.sleep(1000);
+        buySellFormObj.getCostPerCHT(Cost);
+        buySellFormObj.getChattyAmount().sendKeys(Chatty);
+        buySellFormObj.getExpiryTime().sendKeys(Expiry);
+        Thread.sleep(1000);
+        buySellFormObj.getBuySellOrderSubmitBtn().click();
+
+
+
+
 
     }
     @Test(dataProvider="SellData",dataProviderClass=test.frontend.data.DataForBuySellOrder.class, priority=2)
