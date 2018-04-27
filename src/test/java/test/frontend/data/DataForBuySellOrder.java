@@ -46,7 +46,9 @@ public class DataForBuySellOrder {
                 excelData[i - 1][j] = excelParserObj.getCellData(sheetName, j, i);
             }
 
+
         }
+        System.out.println(excelData);
         return excelData;
     }
 

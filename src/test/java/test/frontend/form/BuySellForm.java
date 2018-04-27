@@ -12,22 +12,22 @@ public class BuySellForm {
         PageFactory.initElements(param_driver, this);
     }
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/h3")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/h3")
     WebElement buySellOrderPageHeader;
 
     @FindBy(xpath = ".//*[@id='myTab']/li[2]/a")
     WebElement sellNavigation;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/form/div/div[1]/select")
-    WebElement costPerCHT;
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div[1]/select")
+    WebElement costPerCHTDropdown;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/form/div/div[2]/input")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div[2]/input")
     WebElement chattyAmount;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/form/div/div[3]/input")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div[3]/input")
     WebElement expiryTime;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/form/div/div[6]/button")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div[6]/button")
     WebElement buySellOrderSubmitBtn;
 
     public WebElement getBuySellOrderPageHeader() {
@@ -43,9 +43,14 @@ public class BuySellForm {
         dropdown.selectByVisibleText(costPerCHTInput);
     }*/
 
-    public WebElement getCostPerCHT(String cost) {
-        return costPerCHT;
+    public void setCostPerCHTDropdown(String costPerCHTDropdownInput) {
+        Select dropdown = new Select(costPerCHTDropdown);
+        dropdown.selectByIndex(1);
     }
+
+    /*public void setAddressSelectionDropdown(String addressSelectionDropdownInput){
+        Select dropdown = new Select(addressSelectionDropdown);
+        dropdown.selectByVisibleText(addressSelectionDropdownInput);*/
 
     public WebElement getChattyAmount() {
         return chattyAmount;

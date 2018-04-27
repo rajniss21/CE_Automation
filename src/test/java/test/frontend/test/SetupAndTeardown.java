@@ -21,6 +21,7 @@ public class SetupAndTeardown {
     public String CORE_URL = "qacht-market.ekbana.info/login";
     public String ADMIN_EMAIL = "ekbanat@gmail.com";
     public String ADMIN_PASSWORD = "Tensorflow123@";
+    public boolean hasLoggedIn = false;
 
     /**
     defining drivers, opening browser, maximize window and get URL.
@@ -34,7 +35,8 @@ public class SetupAndTeardown {
         myWebDriver = new ChromeDriver(chromeOptions);
         myWebDriver.manage().window().maximize();
         myWebDriver.get("http://"+CORE_URL);
-    }
+        hasLoggedIn = false;
+}
 
     /**
      * quit the browser
@@ -48,12 +50,13 @@ public class SetupAndTeardown {
      * Login to the system, suply email and password
      */
     public void LoginToTheModule(){
+        if (hasLoggedIn) return;
         LoginPage loginpageObj = new LoginPage(myWebDriver);
         checkForTheText(loginpageObj.getHeaderOfLoginForm(), "SIGN IN");
         loginpageObj.getEmailInput().sendKeys(ADMIN_EMAIL);
         loginpageObj.getPasswordInput().sendKeys(ADMIN_PASSWORD);
         loginpageObj.getLoginSubmitBtn().click();
-
+        hasLoggedIn = true;
 
     }
     /**
