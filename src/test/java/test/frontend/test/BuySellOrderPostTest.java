@@ -13,13 +13,11 @@ import java.io.IOException;
 public class BuySellOrderPostTest extends SetupAndTeardown{
     @Test(dataProvider="BuyData",dataProviderClass=test.frontend.data.DataForBuySellOrder.class, priority=1)
     public void addBuyOrderTest(String Chatty, String Expiry) throws InterruptedException, IOException {
+        /**
+         * Please check the excel file before running the test.
+         * This test reads multiple excel files data(i.e 40 iterations)
+         * */
 
-
-       /* try {
-            DataForBuySellOrder.testData("E:\\CE_Automation\\Excels\\BuySell.xlsx","Buy Order");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
         FrontendLandingPage frontendLandingPageObj = new FrontendLandingPage(myWebDriver);
         BuySellForm buySellFormObj = new BuySellForm(myWebDriver);
 
@@ -37,24 +35,6 @@ public class BuySellOrderPostTest extends SetupAndTeardown{
         buySellFormObj.getExpiryTime().sendKeys(Expiry);
         Thread.sleep(1000);
         buySellFormObj.getBuySellOrderSubmitBtn().click();
-
-        /*Thread.sleep(4000);
-        readOrderValues();
-        Thread.sleep(15000);
-        checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
-        Thread.sleep(1000);
-        frontendLandingPageObj.getBuySellOrders().click();
-        Thread.sleep(1000);
-        checkForTheText(buySellFormObj.getBuySellOrderPageHeader(), "BUY/SELL");
-        Thread.sleep(1000);
-        buySellFormObj.getCostPerCHT("1");
-        buySellFormObj.getChattyAmount().sendKeys(Chatty);
-        buySellFormObj.getExpiryTime().sendKeys(Expiry);
-        Thread.sleep(1000);
-        buySellFormObj.getBuySellOrderSubmitBtn().click();*/
-
-
-
 
 
     }
