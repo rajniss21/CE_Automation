@@ -22,8 +22,6 @@ public class FrontendLandingPage {
     @FindBy(xpath = ".//*[@id='app']/header/ul/li/a")
     WebElement nameOfTheUserLoggedIn;
 
-
-
     @FindBy(xpath = ".//*[@id='app']/aside/ul/li[1]/a/span")
     WebElement topPage;
 
@@ -67,6 +65,9 @@ public class FrontendLandingPage {
 
     /**...................... END.........................*/
 
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[4]/div/div/div[1]/a/i")
+    WebElement popupAdvertisement;
+
 
     public WebElement getNameOfTheUserLoggedIn() {
         return nameOfTheUserLoggedIn;
@@ -96,11 +97,7 @@ public class FrontendLandingPage {
         return frequentlyAskedQuestions;
     }
 
-    /*public void getDarkThemeToggleBtn(){
-        Actions forToggleAction = new Actions(myWebDriver);
-        forToggleAction.moveToElement(darkThemeToggleBtn).perform();
-        forToggleAction.click().build().perform();
-    }*/
+
 
     public void setDarkThemeToggleBtn() {
         Actions forToggleAction = new Actions(myWebDriver);
@@ -126,6 +123,10 @@ public class FrontendLandingPage {
 
     public WebElement getUserLogout() {
         return userLogout;
+    }
+
+    public WebElement getPopupAdvertisement() {
+        return popupAdvertisement;
     }
 }
 

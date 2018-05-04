@@ -18,7 +18,10 @@ public class AccountFundingDepositTest extends SetupAndTeardown{
         Thread.sleep(15000);
         checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
         Thread.sleep(1000);
+        frontendLandingPageObj.getPopupAdvertisement().click();
+        Thread.sleep(1000);
         frontendLandingPageObj.getAccountFunding().click();
+        Thread.sleep(2000);
         accountFundingFormObj.getPrivateKey().sendKeys(privateKey);
         Thread.sleep(2000);
         accountFundingFormObj.getUnlockBtn().click();
@@ -38,6 +41,7 @@ public class AccountFundingDepositTest extends SetupAndTeardown{
         Thread.sleep(15000);
         checkForTheText(frontendLandingPageObj.getNameOfTheUserLoggedIn(), "ekbanat@gmail.com");
         Thread.sleep(1000);
+        frontendLandingPageObj.getPopupAdvertisement().click();
         Thread.sleep(1000);
         frontendLandingPageObj.getAccountFunding().click();
         accountFundingFormObj.getPublicAddress().sendKeys(publicAddress);

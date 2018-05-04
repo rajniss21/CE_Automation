@@ -14,13 +14,13 @@ public class AccountFundingForm {
     /**
      * FOR DEPOSIT.............
      */
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/form/div[1]/input")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[1]/form/div[1]/input")
     WebElement privateKey;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/form/div[2]/button")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[1]/form/div[2]/button")
     WebElement unlockBtn;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/div[1]/div/form/div[1]/input")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[1]/div[2]/div/form/div[1]/input")
     WebElement amountToDeposit;
 
     @FindBy(id = "cht")
@@ -29,17 +29,17 @@ public class AccountFundingForm {
     @FindBy(id = "eth")
     WebElement depositETH;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[1]/div[1]/div/form/div[3]/button")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[1]/div[2]/div/form/div[3]/button")
     WebElement generateTransactionBtn;
 
     /**
      * FOR WITHDRAW...............
      */
 
-    @FindBy(xpath =".//*[@id='app']/main/div/div/div[2]/form/div[1]/input")
+    @FindBy(xpath =".//*[@id='app']/main/div/div/div/div[2]/form/div[1]/input")
     WebElement publicAddress;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[2]/form/div[2]/input")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[2]/form/div[2]/input")
     WebElement amountToWithdraw;
 
     @FindBy(id = "cht")
@@ -48,7 +48,7 @@ public class AccountFundingForm {
     @FindBy(id = "eth")
     WebElement currencyTypeEth;
 
-    @FindBy(xpath = ".//*[@id='app']/main/div/div/div[2]/form/div[4]/button")
+    @FindBy(xpath = ".//*[@id='app']/main/div/div/div/div[2]/form/div[4]/button")
     WebElement withdrawBtn;
 
     public WebElement getPrivateKey() {
