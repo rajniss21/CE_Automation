@@ -50,7 +50,7 @@ public class BuySellOrderPostTest extends SetupAndTeardown{
         Thread.sleep(1000);
         buySellFormObj.getSellNavigation().click();
         Thread.sleep(1000);
-        buySellFormObj.setCostPerCHTDropdown("5¥ (0.00007199193920655092 ETH");
+        buySellFormObj.setCostPerCHTDropdown("1");
         buySellFormObj.getChattyAmount().sendKeys(Chatty);
         buySellFormObj.getExpiryTime().sendKeys(Expiry);
         Thread.sleep(1000);
